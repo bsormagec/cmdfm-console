@@ -9,13 +9,11 @@ from HttpEngine import *
 # Constants
 
 CHECK_INTERVAL			= 3
-
-DOMAIN 					= 'cmd.fm'
+DOMAIN 				= 'cmd.fm'
 REQUEST_GENRES_LIST		= '/get.php?all_genres=1'
-REQUEST_GENRES_SEARCH	= '/get.php?genres=1&q='
+REQUEST_GENRES_SEARCH		= '/get.php?genres=1&q='
 REQUEST_PLAY			= '/get.php?genre='
-
-CLIENT_ID				= '?client_id=2b659ea66970555922d89ce9c07b2d0d'
+CLIENT_ID			= '?client_id=2b659ea66970555922d89ce9c07b2d0d'
 
 # -----------------------------------------
 # Command-line interface
